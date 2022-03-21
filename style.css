@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Fredoka:wght@300;400;500&family=Quicksand:wght@300&family=Shizuru&family=Source+Sans+Pro&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background-color: #2a2a2a;
 }
+
 .nav {
     display: flex;
     height: 40px;
@@ -196,7 +199,7 @@ h2 {
     padding-left: 20px;
 }
 .right-show1 {
-    width: 100%;
+    width: 1300px;
 
     padding: 20px;
 }
@@ -225,17 +228,28 @@ h2 {
     height: 360px;
  margin: 20px;
  border-radius: 10px;
+ background-image: url(https://www.hoteldonandres.com/wp-content/uploads/2016/10/blackboard.jpg);
+ background-size: cover;
 }
 .left-exp2 > button {
     width: 200px;
-    height: 40px;
-    border-radius: 10px;
+
     
     background-color: black;
     color: white;
     font-weight: bolder;
     font-size: 20px;
     cursor: pointer;
+    background-color: #5f9341;
+    font-weight: bolder;
+    font-size: 15px;
+    color: azure;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    margin-top: 5px;
+    border-radius: 8px;
 }
 .left-exp2 > button:hover {
     background-color: lightslategray;
@@ -255,6 +269,531 @@ h2 {
 }
 
 .right-show2 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.pro3 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp3 {
+    width:fit-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+
+ background-size: cover;
+}
+.left-exp3 > button {
+    width: 200px;
+
+    
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1da2dc;
+    font-weight: bolder;
+    font-size: 15px;
+    color: azure;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.left-exp3 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp3 > p {
+    font-family: Quicksand, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show3 {
+    width: 100%;
+
+    padding: 20px;
+}
+
+.right-show3 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.pro4 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp4 {
+    width:fit-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+ background: url('https://github.com/Ismaelx1/Vanilla-JS-DrumKit/blob/main/blackBg.jpg?raw=true') bottom center;
+ background-size: cover;
+}
+.left-exp4 > button {
+    width: 200px;
+
+    
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1da2dc;
+    font-weight: bolder;
+    font-size: 15px;
+    color: azure;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.left-exp4 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp4 > p {
+    font-family: Fredoka, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show4 {
+    width: 900px;
+
+    padding: 20px;
+}
+
+.right-show4 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pro5 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp5 {
+    width:fit-content;
+    background-color: #403d3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+
+ background-size: cover;
+}
+.left-exp5 > button {
+    width: 200px;
+
+    
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: #69bfdb;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Fredoka, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.left-exp5 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp5 > p {
+    font-family: Fredoka, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show5 {
+    width: 100%;
+
+    padding: 20px;
+}
+
+.right-show5 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pro6 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp6 {
+    width:fit-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+
+ background-size: cover;
+}
+.left-exp6 > button {
+    width: 200px;
+
+    
+    background-color: #2196f3;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Fredoka, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.left-exp6 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp6 > p {
+    font-family: Quicksand, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show6 {
+    width: 1350px;
+
+    padding: 20px;
+}
+
+.right-show6 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.pro7 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp7 {
+    width:fit-content;
+    background-color: #b6967d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+
+ background-size: cover;
+}
+.left-exp7 > button {
+    width: 200px;
+
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Cairo, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    position: absolute;
+    margin-top: 220px;
+    border-radius: 8px;
+}
+.left-exp7 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp7 > p {
+    font-family: Cairo, sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show7 {
+    width: 1350px;
+
+    padding: 20px;
+}
+
+.right-show7 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pro8 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp8 {
+    width:fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+
+ background-size: cover;
+}
+.left-exp8 > button {
+    width: 200px;
+
+    
+    background-color: #272822;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Cairo, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    position: absolute;
+    margin-top: 220px;
+    border-radius: 8px;
+}
+.left-exp8 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp8 > p {
+    font-family: Quicksand, sans-serif;
+    font-weight: bolder;
+    color: #403d3d;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show8 {
+    width: 1350px;
+
+    padding: 20px;
+}
+
+.right-show8 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pro9 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp9 {
+    width:fit-content;
+    background-color: #12181b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+width: 49%;
+ background-size: cover;
+}
+.left-exp9 > button {
+    width: 200px;
+
+    
+    background-color: #f24c60;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Fredoka, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    position: absolute;
+    margin-top: 220px;
+    border-radius: 8px;
+}
+.left-exp9 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp9 > p {
+    font-family: Fredoka, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show9 {
+    width: 50%;
+
+    padding: 20px;
+}
+
+.right-show9 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pro10 {
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.left-exp10 {
+    width:fit-content;
+    background-image: linear-gradient(45deg, rgb(140, 202, 165), 
+    rgb(198,159,197), rgb(248, 160, 133), rgb(52,219,216));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+ margin: 20px;
+ border-radius: 10px;
+width: 49%;
+ background-size: cover;
+}
+.left-exp10 > button {
+    width: 200px;
+
+    
+    background-color: white;
+    
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Fredoka, sans-serif;
+ 
+    padding: 10px 15px 10px 15px;
+    border: none;
+    height: fit-content;
+
+    position: absolute;
+    margin-top: 220px;
+    border-radius: 8px;
+}
+.left-exp10 > button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+.left-exp10 > p {
+    font-family: Fredoka, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right-show10 {
+    width: 50%;
+
+    padding: 20px;
+}
+
+.right-show10 > img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
