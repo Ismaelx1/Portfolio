@@ -798,3 +798,118 @@ width: 49%;
     height: 100%;
     border-radius: 10px;
 }
+
+.about {
+    display: flex;
+ 
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    width: 100%;
+    height: fit-content;
+   background-color: #221b1b;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.about:hover {
+    background-color: lightslategray;
+ 
+    cursor: pointer;
+}
+.about > h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.abouttext {
+    width: 500px;
+    height: 400px;
+    padding: 20px 150px 20px 150px;
+    background-color: #3f4344;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+.abouttext:hover {
+
+    box-shadow: 10px 10px 10px black;
+
+}
+
+
+.abouttext > p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.goultron {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+ 
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    width: 100%;
+    height: fit-content;
+   background-color: #221b1b;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contact:hover {
+    background-color: lightslategray;
+ 
+    cursor: pointer;
+}
+.contact > h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.abouttext {
+    width: 500px;
+    height: 400px;
+    padding: 20px 150px 20px 150px;
+    background-color: #3f4344;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+.abouttext:hover {
+
+    box-shadow: 10px 10px 10px black;
+
+}
+
+
+.abouttext > p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
