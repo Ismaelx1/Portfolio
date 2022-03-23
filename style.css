@@ -10,6 +10,8 @@ body {
     display: flex;
     height: 40px;
     background-color: #221b1b;
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -27,20 +29,31 @@ width: 50%;
 .left-nav {
     display: flex;
     width: 50%;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 10px;
 }
 .left-nav > button {
-    width: 100px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50%;
+}
+
+#white {
+    background-color: white;
+}
+#dark {
+    background-color: black;
 }
 
 h3 > a {
     
     color: white;
+    font-style: italic;
+    font-size: 20px;
+    
 }
 
 .header {
@@ -912,7 +925,7 @@ width: 49%;
     margin-top: 20px;
     border-radius: 10px;
    
-    cursor: pointer;
+   
 }
 .abouttext:hover {
 
@@ -926,4 +939,35 @@ width: 49%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 30px;
+}
+
+.contacts {
+    width: 50%;
+    height: 400px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 25px;
+}
+.contacts > div {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.contacts > div > a > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: #2196f3;
 }
